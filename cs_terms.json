@@ -1,0 +1,2372 @@
+[
+  {
+    "term": "greeting",
+    "definition": "Assalamualaikum! I'm CS Genie Pro – your AI tutor for Hacking, IT, and all of Computer Science!",
+    "basic_questions": [
+      "Who are you?",
+      "How do you greet users?",
+      "What is your introduction?"
+    ],
+    "basic_answers": [
+      "Assalamualaikum! I'm CS Genie Pro – your AI tutor for Hacking, IT, and all of Computer Science!",
+      "I greet with: Assalamualaikum! I'm CS Genie Pro – your AI tutor for Hacking, IT, and all of Computer Science!",
+      "My intro is: Assalamualaikum! I'm CS Genie Pro – your AI tutor for Hacking, IT, and all of Computer Science!"
+    ]
+  },
+  {
+    "term": "goodbye",
+    "definition": "Goodbye! Keep exploring and keep learning!",
+    "basic_questions": [
+      "How do you say goodbye?",
+      "What do you say at the end of a session?"
+    ],
+    "basic_answers": [
+      "I say: Goodbye! Keep exploring and keep learning!",
+      "My farewell message is: Goodbye! Keep exploring and keep learning!"
+    ]
+  },
+  {
+    "term": "motivation",
+    "definition": "Every expert was once a beginner. Code daily, break things, learn, repeat!",
+    "basic_questions": [
+      "Give me a motivational quote.",
+      "How can I stay motivated in CS?"
+    ],
+    "basic_answers": [
+      "Every expert was once a beginner. Code daily, break things, learn, repeat! 💻",
+      "Remember: Every expert was once a beginner. Code daily, break things, learn, repeat!"
+    ]
+  },
+  {
+    "term": "algorithm",
+    "definition": "An algorithm is a finite sequence of well-defined, step-by-step instructions to solve a computational problem or perform a task.",
+    "basic_questions": [
+      "What is an algorithm?",
+      "Give an example of an algorithm in daily life.",
+      "Why do we need algorithms?"
+    ],
+    "basic_answers": [
+      "An algorithm is a step-by-step recipe to solve a problem, like a cooking recipe but for computers.",
+      "Example: To make tea → 1. Boil water, 2. Add tea leaves, 3. Add sugar, 4. Add milk, 5. Serve.",
+      "Algorithms make computers solve problems efficiently and correctly."
+    ]
+  },
+  {
+    "term": "time complexity",
+    "definition": "Time complexity measures the amount of computational time an algorithm takes as a function of input size, typically expressed in Big O notation.",
+    "basic_questions": [
+      "What is time complexity?",
+      "What does O(n) mean?",
+      "Why is time complexity important?"
+    ],
+    "basic_answers": [
+      "Time complexity tells how fast an algorithm runs as input grows. Measured in Big O.",
+      "O(n) means time grows linearly — if input doubles, time roughly doubles.",
+      "It helps choose fast algorithms for large data."
+    ]
+  },
+  {
+    "term": "space complexity",
+    "definition": "Space complexity refers to the amount of memory an algorithm uses relative to the input size.",
+    "basic_questions": [
+      "What is space complexity?",
+      "Give an example of high space complexity.",
+      "O(1) space means what?"
+    ],
+    "basic_answers": [
+      "Space complexity measures how much memory (RAM) an algorithm needs.",
+      "Creating a copy of the entire array → O(n) space.",
+      "O(1) means constant memory — uses same memory no matter input size."
+    ]
+  },
+  {
+    "term": "big o notation",
+    "definition": "Big O notation describes the upper bound of an algorithm's growth rate, focusing on worst-case performance.",
+    "basic_questions": [
+      "What is Big O notation?",
+      "What’s the difference between O(n) and O(n²)?",
+      "Is O(1) the fastest?"
+    ],
+    "basic_answers": [
+      "Big O describes how slow an algorithm gets as input grows — worst case.",
+      "O(n): linear (fast), O(n²): quadratic (slow for large n).",
+      "Yes! O(1) is constant time — fastest possible."
+    ]
+  },
+  {
+    "term": "omega notation",
+    "definition": "Omega notation describes the lower bound of an algorithm's growth rate in the best case.",
+    "basic_questions": [
+      "What is Omega notation?",
+      "Ω(n) means what?"
+    ],
+    "basic_answers": [
+      "Omega (Ω) gives the best-case lower bound — minimum time an algorithm will take.",
+      "Ω(n) means at best, it takes time proportional to n."
+    ]
+  },
+  {
+    "term": "theta notation",
+    "definition": "Theta notation provides a tight bound, meaning both upper and lower bounds are the same.",
+    "basic_questions": [
+      "What is Theta notation?",
+      "When do we use Θ?"
+    ],
+    "basic_answers": [
+      "Theta (Θ) means tight bound — both best and worst case are the same.",
+      "Use Θ when upper (O) and lower (Ω) bounds match, e.g., merge sort is Θ(n log n)."
+    ]
+  },
+  {
+    "term": "array",
+    "definition": "A fixed-size collection of elements of the same type stored in contiguous memory locations.",
+    "basic_questions": [
+      "What is an array?",
+      "How do you access array elements?",
+      "What is index in array?"
+    ],
+    "basic_answers": [
+      "An array is a list of items of the same type stored in continuous memory.",
+      "Use index: arr[0] = first element, arr[1] = second, etc.",
+      "Index is the position number, starting from 0."
+    ]
+  },
+  {
+    "term": "dynamic array",
+    "definition": "An array that automatically resizes when full, used in languages like Python (list) and Java (ArrayList).",
+    "basic_questions": [
+      "What is a dynamic array?",
+      "Python list is what kind of array?",
+      "Why use dynamic arrays?"
+    ],
+    "basic_answers": [
+      "An array that grows/shrinks automatically when you add/remove items.",
+      "Python list = dynamic array.",
+      "No need to specify size upfront — flexible and easy to use."
+    ]
+  },
+  {
+    "term": "linked list",
+    "definition": "A linear data structure where each element (node) points to the next, allowing dynamic size and efficient insertions.",
+    "basic_questions": [
+      "What is a linked list?",
+      "Difference between array and linked list?",
+      "Advantage of linked list?"
+    ],
+    "basic_answers": [
+      "A chain of nodes where each node holds data and pointer to next node.",
+      "Array: fixed size, fast access. Linked List: dynamic, fast insert/delete.",
+      "Insert/delete in middle is O(1) if you have the node."
+    ]
+  },
+  {
+    "term": "doubly linked list",
+    "definition": "A linked list where each node has pointers to both next and previous nodes.",
+    "basic_questions": [
+      "What is a doubly linked list?",
+      "Why use doubly linked list over singly?"
+    ],
+    "basic_answers": [
+      "Each node has data, next pointer, and previous pointer.",
+      "Can traverse backward easily — useful in browser history, music playlist."
+    ]
+  },
+  {
+    "term": "circular linked list",
+    "definition": "A linked list where the last node points back to the first, forming a circle.",
+    "basic_questions": [
+      "What is a circular linked list?",
+      "Use case of circular linked list?"
+    ],
+    "basic_answers": [
+      "Last node points to first — no start/end, forms a loop.",
+      "Round-robin scheduling, music playlist loop, game turns."
+    ]
+  },
+  {
+    "term": "stack",
+    "definition": "A LIFO (Last In, First Out) data structure supporting push, pop, and peek operations.",
+    "basic_questions": [
+      "What is a stack?",
+      "Real-life example of stack?",
+      "What are stack operations?"
+    ],
+    "basic_answers": [
+      "LIFO: Last In, First Out — like a stack of plates.",
+      "Undo (Ctrl+Z), function call stack, browser back button.",
+      "Push (add), Pop (remove), Peek (view top)."
+    ]
+  },
+  {
+    "term": "queue",
+    "definition": "A FIFO (First In, First Out) data structure used in scheduling, breadth-first search, and buffering.",
+    "basic_questions": [
+      "What is a queue?",
+      "Example of queue in real life?",
+      "Queue operations?"
+    ],
+    "basic_answers": [
+      "FIFO: First In, First Out — like a line at a bank.",
+      "Printer queue, CPU task scheduling, message queue.",
+      "Enqueue (add), Dequeue (remove), Front (view first)."
+    ]
+  },
+  {
+    "term": "deque",
+    "definition": "Double-ended queue allowing insertion and deletion from both ends.",
+    "basic_questions": [
+      "What is a deque?",
+      "Where is deque used?"
+    ],
+    "basic_answers": [
+      "Double-ended queue — add/remove from front or back.",
+      "Sliding window, palindrome check, browser history."
+    ]
+  },
+  {
+    "term": "priority queue",
+    "definition": "A queue where elements are served based on priority, implemented using heaps.",
+    "basic_questions": [
+      "What is a priority queue?",
+      "How is it different from normal queue?"
+    ],
+    "basic_answers": [
+      "Queue where higher priority items come out first (not FIFO).",
+      "Normal queue: FIFO. Priority queue: highest priority first (e.g., hospital emergency)."
+    ]
+  },
+  {
+    "term": "heap",
+    "definition": "A complete binary tree satisfying the heap property: parent ≥ children (max-heap) or parent ≤ children (min-heap).",
+    "basic_questions": [
+      "What is a heap?",
+      "Difference between min-heap and max-heap?",
+      "Use of heap?"
+    ],
+    "basic_answers": [
+      "Complete binary tree where parent is greater/less than children.",
+      "Min-heap: parent ≤ children. Max-heap: parent ≥ children.",
+      "Priority queue, heap sort, scheduling."
+    ]
+  },
+  {
+    "term": "binary tree",
+    "definition": "A tree where each node has at most two children: left and right.",
+    "basic_questions": [
+      "What is a binary tree?",
+      "How many children can a node have?"
+    ],
+    "basic_answers": [
+      "Tree where each node has at most 2 children: left and right.",
+      "Maximum 2 children per node."
+    ]
+  },
+  {
+    "term": "binary search tree",
+    "definition": "A binary tree where left subtree < node < right subtree, enabling O(log n) search.",
+    "basic_questions": [
+      "What is a BST?",
+      "Why is search fast in BST?"
+    ],
+    "basic_answers": [
+      "Binary tree where left < node < right.",
+      "Search halves the tree each time → O(log n)."
+    ]
+  },
+  {
+    "term": "avl tree",
+    "definition": "A self-balancing BST where height difference between subtrees ≤ 1.",
+    "basic_questions": [
+      "What is AVL tree?",
+      "Why is it balanced?"
+    ],
+    "basic_answers": [
+      "Self-balancing BST — keeps height difference ≤ 1.",
+      "Rotations keep tree balanced → O(log n) always."
+    ]
+  },
+  {
+    "term": "red black tree",
+    "definition": "A self-balancing BST using color bits to ensure O(log n) operations.",
+    "basic_questions": [
+      "What is a Red-Black Tree?",
+      "Used in which language?"
+    ],
+    "basic_answers": [
+      "Self-balancing BST with red/black colors to maintain balance.",
+      "Used in Java (TreeMap), C++ STL (map), Linux kernel."
+    ]
+  },
+  {
+    "term": "b tree",
+    "definition": "A self-balancing tree designed for disk-based storage, used in databases and file systems.",
+    "basic_questions": [
+      "What is a B-tree?",
+      "Why used in databases?"
+    ],
+    "basic_answers": [
+      "Multi-way balanced tree with many children per node.",
+      "Minimizes disk reads — perfect for databases."
+    ]
+  },
+  {
+    "term": "b+ tree",
+    "definition": "A variant of B-tree where all values are stored in leaves, used in database indexing.",
+    "basic_questions": [
+      "What is B+ tree?",
+      "Difference from B-tree?"
+    ],
+    "basic_answers": [
+      "B-tree variant: data only in leaves, internal nodes have keys.",
+      "Faster range queries, better for indexing."
+    ]
+  },
+  {
+    "term": "trie",
+    "definition": "A prefix tree used for efficient string retrieval, autocomplete, and spell checking.",
+    "basic_questions": [
+      "What is a trie?",
+      "Use of trie?"
+    ],
+    "basic_answers": [
+      "Tree where each node is a character, paths form words.",
+      "Autocomplete, spell check, dictionary."
+    ]
+  },
+  {
+    "term": "suffix tree",
+    "definition": "A compressed trie containing all suffixes of a string, used in text processing.",
+    "basic_questions": [
+      "What is a suffix tree?",
+      "Used for?"
+    ],
+    "basic_answers": [
+      "Compressed trie of all suffixes of a string.",
+      "Substring search, longest common substring."
+    ]
+  },
+  {
+    "term": "hash table",
+    "definition": "A data structure using hash functions to map keys to array indices for O(1) average lookup.",
+    "basic_questions": [
+      "What is a hash table?",
+      "Why is lookup O(1)?",
+      "Python dictionary is what?"
+    ],
+    "basic_answers": [
+      "Data structure that maps keys to values using hash function.",
+      "Direct index access via hash → average O(1).",
+      "Python dict = hash table."
+    ]
+  },
+  {
+    "term": "hash function",
+    "definition": "A function that converts a key into an array index. Good hash functions minimize collisions.",
+    "basic_questions": [
+      "What is a hash function?",
+      "What is a collision?"
+    ],
+    "basic_answers": [
+      "Function that turns key (e.g., 'apple') into array index (e.g., 3).",
+      "Two keys hash to same index."
+    ]
+  },
+  {
+    "term": "collision resolution",
+    "definition": "Techniques to handle when two keys hash to the same index: chaining or open addressing.",
+    "basic_questions": [
+      "How to resolve hash collisions?",
+      "Name two methods."
+    ],
+    "basic_answers": [
+      "Use chaining (linked list) or open addressing (probing).",
+      "1. Chaining, 2. Open Addressing."
+    ]
+  },
+  {
+    "term": "chaining",
+    "definition": "Collision resolution using linked lists at each hash table index.",
+    "basic_questions": [
+      "What is chaining in hash tables?"
+    ],
+    "basic_answers": [
+      "Store colliding items in a linked list at that index."
+    ]
+  },
+  {
+    "term": "open addressing",
+    "definition": "Collision resolution by probing for the next empty slot (linear, quadratic, double hashing).",
+    "basic_questions": [
+      "What is open addressing?",
+      "Name probing types."
+    ],
+    "basic_answers": [
+      "Find next empty slot when collision occurs.",
+      "Linear, Quadratic, Double Hashing."
+    ]
+  },
+  {
+    "term": "linear probing",
+    "definition": "Open addressing where next slot is checked sequentially.",
+    "basic_questions": [
+      "What is linear probing?",
+      "Problem with linear probing?"
+    ],
+    "basic_answers": [
+      "Check next slot: index, index+1, index+2...",
+      "Clustering — items clump together."
+    ]
+  },
+  {
+    "term": "quadratic probing",
+    "definition": "Probing using quadratic intervals to reduce clustering.",
+    "basic_questions": [
+      "What is quadratic probing?"
+    ],
+    "basic_answers": [
+      "Probe: index, index+1², index+2², etc. Reduces clustering."
+    ]
+  },
+  {
+    "term": "double hashing",
+    "definition": "Using two hash functions to determine probe sequence.",
+    "basic_questions": [
+      "What is double hashing?"
+    ],
+    "basic_answers": [
+      "Use second hash to decide step size → better distribution."
+    ]
+  },
+  {
+    "term": "graph",
+    "definition": "A collection of nodes (vertices) connected by edges, representing relationships.",
+    "basic_questions": [
+      "What is a graph?",
+      "Real-world example?"
+    ],
+    "basic_answers": [
+      "Nodes (vertices) + edges (connections).",
+      "Social network: people (nodes), friends (edges)."
+    ]
+  },
+  {
+    "term": "directed graph",
+    "definition": "A graph where edges have direction (one-way).",
+    "basic_questions": [
+      "What is a directed graph?",
+      "Example?"
+    ],
+    "basic_answers": [
+      "Edges have direction: A → B (not B → A).",
+      "Web pages (links), Twitter follows."
+    ]
+  },
+  {
+    "term": "undirected graph",
+    "definition": "A graph where edges have no direction (bidirectional).",
+    "basic_questions": [
+      "What is undirected graph?",
+      "Example?"
+    ],
+    "basic_answers": [
+      "Edges go both ways: A — B = B — A.",
+      "Facebook friends, road network."
+    ]
+  },
+  {
+    "term": "weighted graph",
+    "definition": "A graph where edges have numerical weights or costs.",
+    "basic_questions": [
+      "What is a weighted graph?",
+      "Use?"
+    ],
+    "basic_answers": [
+      "Edges have costs (e.g., distance, time).",
+      "Shortest path (Dijkstra), flight routes."
+    ]
+  },
+  {
+    "term": "adjacency matrix",
+    "definition": "A 2D array representing graph: matrix[i][j] = 1 if edge exists between i and j.",
+    "basic_questions": [
+      "What is adjacency matrix?",
+      "When to use it?"
+    ],
+    "basic_answers": [
+      "2D array: 1 if edge, 0 if no edge.",
+      "Dense graphs, fast edge check O(1)."
+    ]
+  },
+  {
+    "term": "adjacency list",
+    "definition": "An array of lists where each index holds neighbors of a vertex.",
+    "basic_questions": [
+      "What is adjacency list?",
+      "Advantage?"
+    ],
+    "basic_answers": [
+      "Array of lists: arr[0] = [1,2], arr[1] = [0,3].",
+      "Saves space in sparse graphs."
+    ]
+  },
+  {
+    "term": "breadth first search",
+    "definition": "Graph traversal starting from root, exploring level by level using a queue.",
+    "basic_questions": [
+      "What is BFS?",
+      "Use case?"
+    ],
+    "basic_answers": [
+      "Level-by-level traversal using queue.",
+      "Shortest path in unweighted graph, connected components."
+    ]
+  },
+  {
+    "term": "depth first search",
+    "definition": "Graph traversal exploring as far as possible along each branch before backtracking.",
+    "basic_questions": [
+      "What is DFS?",
+      "Use case?"
+    ],
+    "basic_answers": [
+      "Go deep first, backtrack when stuck.",
+      "Cycle detection, topological sort, maze solving."
+    ]
+  },
+  {
+    "term": "dijkstra algorithm",
+    "definition": "Finds shortest paths from a source to all vertices in a weighted graph with non-negative weights.",
+    "basic_questions": [
+      "What is Dijkstra’s algorithm?",
+      "When can’t we use it?"
+    ],
+    "basic_answers": [
+      "Finds shortest path in weighted graph (non-negative weights).",
+      "Cannot handle negative weights."
+    ]
+  },
+  {
+    "term": "bellman ford algorithm",
+    "definition": "Computes shortest paths in weighted graphs, handles negative weights, detects negative cycles.",
+    "basic_questions": [
+      "What is Bellman-Ford?",
+      "Advantage over Dijkstra?"
+    ],
+    "basic_answers": [
+      "Shortest path with negative weights, detects negative cycles.",
+      "Handles negative edges (Dijkstra cannot)."
+    ]
+  },
+  {
+    "term": "floyd warshall algorithm",
+    "definition": "Finds shortest paths between all pairs of vertices using dynamic programming.",
+    "basic_questions": [
+      "What is Floyd-Warshall?",
+      "Time complexity?"
+    ],
+    "basic_answers": [
+      "All-pairs shortest path using DP.",
+      "O(V³) — good for dense graphs."
+    ]
+  },
+  {
+    "term": "kruskal algorithm",
+    "definition": "Finds Minimum Spanning Tree using Union-Find and edge sorting.",
+    "basic_questions": [
+      "What is Kruskal’s algorithm?",
+      "Steps?"
+    ],
+    "basic_answers": [
+      "Builds MST by adding cheapest edges without cycles.",
+      "1. Sort edges, 2. Add if no cycle (Union-Find)."
+    ]
+  },
+  {
+    "term": "prim algorithm",
+    "definition": "Builds MST by growing from a starting vertex, always choosing the smallest edge to a new vertex.",
+    "basic_questions": [
+      "What is Prim’s algorithm?",
+      "Difference from Kruskal?"
+    ],
+    "basic_answers": [
+      "Grows MST from one vertex, picks min edge to new vertex.",
+      "Prim: grows from vertex. Kruskal: sorts all edges."
+    ]
+  },
+  {
+    "term": "topological sort",
+    "definition": "Linear ordering of vertices in a DAG such that for every directed edge u→v, u comes before v.",
+    "basic_questions": [
+      "What is topological sort?",
+      "Used for?"
+    ],
+    "basic_answers": [
+      "Order tasks where A must come before B.",
+      "Course schedule, build systems, dependency resolution."
+    ]
+  },
+  {
+    "term": "strongly connected component",
+    "definition": "A subgraph where every vertex is reachable from every other vertex.",
+    "basic_questions": [
+      "What is SCC?",
+      "Algorithm to find?"
+    ],
+    "basic_answers": [
+      "Part of graph where all nodes reach each other.",
+      "Kosaraju or Tarjan’s algorithm."
+    ]
+  },
+  {
+    "term": "articulation point",
+    "definition": "A vertex whose removal increases the number of connected components.",
+    "basic_questions": [
+      "What is articulation point?",
+      "Also called?"
+    ],
+    "basic_answers": [
+      "Node whose removal disconnects graph.",
+      "Cut vertex."
+    ]
+  },
+  {
+    "term": "bridge",
+    "definition": "An edge whose removal increases the number of connected components.",
+    "basic_questions": [
+      "What is a bridge in graph?"
+    ],
+    "basic_answers": [
+      "Edge whose removal disconnects the graph."
+    ]
+  },
+  {
+    "term": "binary search",
+    "definition": "Efficient search in sorted array by repeatedly dividing search interval in half.",
+    "basic_questions": [
+      "What is binary search?",
+      "Time complexity?",
+      "Requirement?"
+    ],
+    "basic_answers": [
+      "Search by halving sorted array each step.",
+      "O(log n).",
+      "Array must be sorted."
+    ]
+  },
+  {
+    "term": "linear search",
+    "definition": "Sequential search through each element until target is found.",
+    "basic_questions": [
+      "What is linear search?",
+      "Time complexity?"
+    ],
+    "basic_answers": [
+      "Check each element one by one.",
+      "O(n) — worst case checks all."
+    ]
+  },
+  {
+    "term": "bubble sort",
+    "definition": "Repeatedly swaps adjacent elements if out of order. O(n²).",
+    "basic_questions": [
+      "What is bubble sort?",
+      "Time complexity?"
+    ],
+    "basic_answers": [
+      "Swap adjacent if wrong order, bubble largest to end.",
+      "O(n²) — slow."
+    ]
+  },
+  {
+    "term": "selection sort",
+    "definition": "Finds minimum element in unsorted portion and places it at the beginning.",
+    "basic_questions": [
+      "How does selection sort work?"
+    ],
+    "basic_answers": [
+      "Find smallest, swap with first position, repeat."
+    ]
+  },
+  {
+    "term": "insertion sort",
+    "definition": "Builds sorted array one item at a time by inserting into correct position.",
+    "basic_questions": [
+      "What is insertion sort?",
+      "Best for?"
+    ],
+    "basic_answers": [
+      "Insert each element into its correct position in sorted part.",
+      "Nearly sorted arrays."
+    ]
+  },
+  {
+    "term": "merge sort",
+    "definition": "Divide-and-conquer: splits array, recursively sorts, then merges. O(n log n).",
+    "basic_questions": [
+      "What is merge sort?",
+      "Time complexity?"
+    ],
+    "basic_answers": [
+      "Divide array, sort halves, merge.",
+      "O(n log n) — stable and consistent."
+    ]
+  },
+  {
+    "term": "quick sort",
+    "definition": "Chooses pivot, partitions array, recursively sorts subarrays. Average O(n log n).",
+    "basic_questions": [
+      "What is quicksort?",
+      "Average time?"
+    ],
+    "basic_answers": [
+      "Pick pivot, partition, recurse.",
+      "O(n log n) average, O(n²) worst."
+    ]
+  },
+  {
+    "term": "heap sort",
+    "definition": "Converts array to max-heap, repeatedly extracts max and heapifies.",
+    "basic_questions": [
+      "What is heap sort?"
+    ],
+    "basic_answers": [
+      "Build max-heap, remove max repeatedly."
+    ]
+  },
+  {
+    "term": "counting sort",
+    "definition": "Non-comparison sort for integers with known range. O(n + k).",
+    "basic_questions": [
+      "When to use counting sort?"
+    ],
+    "basic_answers": [
+      "When numbers are in small range (e.g., 1 to 100)."
+    ]
+  },
+  {
+    "term": "radix sort",
+    "definition": "Sorts integers by processing digits from least to most significant.",
+    "basic_questions": [
+      "What is radix sort?"
+    ],
+    "basic_answers": [
+      "Sort digit by digit, starting from least significant."
+    ]
+  },
+  {
+    "term": "bucket sort",
+    "definition": "Distributes elements into buckets, sorts buckets, then concatenates.",
+    "basic_questions": [
+      "What is bucket sort?"
+    ],
+    "basic_answers": [
+      "Put numbers in buckets, sort each, combine."
+    ]
+  },
+  {
+    "term": "recursion",
+    "definition": "A function calling itself with a smaller input to solve subproblems.",
+    "basic_questions": [
+      "What is recursion?",
+      "Example?"
+    ],
+    "basic_answers": [
+      "Function calls itself with smaller input.",
+      "Factorial: fact(n) = n * fact(n-1)"
+    ]
+  },
+  {
+    "term": "tail recursion",
+    "definition": "Recursion where the recursive call is the last operation, optimizable by compilers.",
+    "basic_questions": [
+      "What is tail recursion?"
+    ],
+    "basic_answers": [
+      "Recursive call is the last thing — can be optimized to loop."
+    ]
+  },
+  {
+    "term": "memoization",
+    "definition": "Caching results of expensive function calls to avoid recomputation.",
+    "basic_questions": [
+      "What is memoization?"
+    ],
+    "basic_answers": [
+      "Store results of function calls to reuse (e.g., Fibonacci)."
+    ]
+  },
+  {
+    "term": "dynamic programming",
+    "definition": "Solving complex problems by breaking them into overlapping subproblems and storing results.",
+    "basic_questions": [
+      "What is DP?",
+      "Example?"
+    ],
+    "basic_answers": [
+      "Solve subproblems once, store answers.",
+      "Fibonacci, Knapsack, Longest Common Subsequence."
+    ]
+  },
+  {
+    "term": "greedy algorithm",
+    "definition": "Makes locally optimal choice at each step hoping to find global optimum.",
+    "basic_questions": [
+      "What is greedy?",
+      "Example?"
+    ],
+    "basic_answers": [
+      "Choose best option now, hope for global best.",
+      "Coin change (if greedy works), Activity selection."
+    ]
+  },
+  {
+    "term": "backtracking",
+    "definition": "Systematically tries all possibilities, undoing choices when a path fails.",
+    "basic_questions": [
+      "What is backtracking?"
+    ],
+    "basic_answers": [
+      "Try all options, undo if wrong (e.g., N-Queens, Sudoku)."
+    ]
+  },
+  {
+    "term": "divide and conquer",
+    "definition": "Breaks problem into smaller subproblems, solves independently, combines results.",
+    "basic_questions": [
+      "What is divide and conquer?"
+    ],
+    "basic_answers": [
+      "Divide → Conquer → Combine (e.g., merge sort)."
+    ]
+  },
+  {
+    "term": "brute force",
+    "definition": "Trying all possible solutions without optimization.",
+    "basic_questions": [
+      "What is brute force?"
+    ],
+    "basic_answers": [
+      "Try every possibility (slow but correct)."
+    ]
+  },
+  {
+    "term": "bit manipulation",
+    "definition": "Directly operating on binary representations using bitwise operators.",
+    "basic_questions": [
+      "What is bit manipulation?"
+    ],
+    "basic_answers": [
+      "Use & | ^ ~ << >> on binary (fast, low-level)."
+    ]
+  },
+  {
+    "term": "two pointers",
+    "definition": "Technique using two indices moving toward each other to solve array problems efficiently.",
+    "basic_questions": [
+      "What is two pointers?"
+    ],
+    "basic_answers": [
+      "Left and right pointers move based on condition (e.g., two sum)."
+    ]
+  },
+  {
+    "term": "sliding window",
+    "definition": "Maintains a window of elements that expands or contracts to meet conditions.",
+    "basic_questions": [
+      "What is sliding window?"
+    ],
+    "basic_answers": [
+      "Fixed or dynamic window over array (e.g., max subarray sum)."
+    ]
+  },
+  {
+    "term": "object oriented programming",
+    "definition": "Programming paradigm based on objects containing data and methods.",
+    "basic_questions": [
+      "What is OOP?",
+      "Four pillars?"
+    ],
+    "basic_answers": [
+      "Programming using objects (data + functions).",
+      "Encapsulation, Abstraction, Inheritance, Polymorphism."
+    ]
+  },
+  {
+    "term": "class",
+    "definition": "A blueprint for creating objects with properties and behaviors.",
+    "basic_questions": [
+      "What is a class?"
+    ],
+    "basic_answers": [
+      "Template for objects (e.g., class Car { color, speed })."
+    ]
+  },
+  {
+    "term": "object",
+    "definition": "An instance of a class with actual values.",
+    "basic_questions": [
+      "What is an object?"
+    ],
+    "basic_answers": [
+      "Real instance: Car myCar = new Car();"
+    ]
+  },
+  {
+    "term": "inheritance",
+    "definition": "Mechanism where a new class derives properties and methods from an existing class.",
+    "basic_questions": [
+      "What is inheritance?"
+    ],
+    "basic_answers": [
+      "Child class inherits from parent (code reuse)."
+    ]
+  },
+  {
+    "term": "polymorphism",
+    "definition": "Ability of different classes to be treated as instances of the same class through inheritance.",
+    "basic_questions": [
+      "What is polymorphism?"
+    ],
+    "basic_answers": [
+      "Same method, different behavior (e.g., override)."
+    ]
+  },
+  {
+    "term": "encapsulation",
+    "definition": "Bundling data and methods that operate on it within a single unit (class).",
+    "basic_questions": [
+      "What is encapsulation?"
+    ],
+    "basic_answers": [
+      "Hide data, expose via methods (private + getters/setters)."
+    ]
+  },
+  {
+    "term": "abstraction",
+    "definition": "Hiding complex implementation details and showing only essential features.",
+    "basic_questions": [
+      "What is abstraction?"
+    ],
+    "basic_answers": [
+      "Show what, hide how (e.g., API, abstract class)."
+    ]
+  },
+  {
+    "term": "interface",
+    "definition": "A contract specifying what methods a class must implement.",
+    "basic_questions": [
+      "What is an interface?"
+    ],
+    "basic_answers": [
+      "100% abstract — defines what, not how."
+    ]
+  },
+  {
+    "term": "abstract class",
+    "definition": "A class that cannot be instantiated and may contain abstract methods.",
+    "basic_questions": [
+      "Difference between abstract class and interface?"
+    ],
+    "basic_answers": [
+      "Abstract class: partial impl. Interface: no impl (before Java 8)."
+    ]
+  },
+  {
+    "term": "constructor",
+    "definition": "Special method called when an object is created to initialize its state.",
+    "basic_questions": [
+      "What is a constructor?"
+    ],
+    "basic_answers": [
+      "Runs when object is created: Car() { color = 'red'; }"
+    ]
+  },
+  {
+    "term": "destructor",
+    "definition": "Method called when an object is destroyed to release resources.",
+    "basic_questions": [
+      "What is destructor?"
+    ],
+    "basic_answers": [
+      "Cleanup: ~Car() { free memory } (C++)."
+    ]
+  },
+  {
+    "term": "this keyword",
+    "definition": "Refers to the current instance of the class.",
+    "basic_questions": [
+      "What is 'this'?"
+    ],
+    "basic_answers": [
+      "Refers to current object: this.name = name;"
+    ]
+  },
+  {
+    "term": "super keyword",
+    "definition": "Refers to the parent class in inheritance.",
+    "basic_questions": [
+      "What is 'super'?"
+    ],
+    "basic_answers": [
+      "Call parent method: super.eat();"
+    ]
+  },
+  {
+    "term": "static",
+    "definition": "Belongs to the class rather than instances; shared across all objects.",
+    "basic_questions": [
+      "What is static?"
+    ],
+    "basic_answers": [
+      "Shared by all objects: static int count;"
+    ]
+  },
+  {
+    "term": "final",
+    "definition": "Prevents method overriding, variable reassignment, or class inheritance.",
+    "basic_questions": [
+      "What is final in Java?"
+    ],
+    "basic_answers": [
+      "final variable: constant, final method: no override, final class: no extend."
+    ]
+  },
+  {
+    "term": "database",
+    "definition": "An organized collection of structured data stored electronically.",
+    "basic_questions": [
+      "What is a database?"
+    ],
+    "basic_answers": [
+      "Organized storage of data (e.g., student records)."
+    ]
+  },
+  {
+    "term": "rdbms",
+    "definition": "Relational Database Management System using tables with rows and columns.",
+    "basic_questions": [
+      "What is RDBMS?",
+      "Examples?"
+    ],
+    "basic_answers": [
+      "Database using tables, rows, columns, relationships.",
+      "MySQL, PostgreSQL, Oracle, SQL Server."
+    ]
+  },
+  {
+    "term": "sql",
+    "definition": "Structured Query Language for managing and querying relational databases.",
+    "basic_questions": [
+      "What is SQL?",
+      "Basic commands?"
+    ],
+    "basic_answers": [
+      "Language to talk to databases.",
+      "SELECT, INSERT, UPDATE, DELETE."
+    ]
+  },
+  {
+    "term": "nosql",
+    "definition": "Non-relational databases for unstructured or semi-structured data.",
+    "basic_questions": [
+      "What is NoSQL?",
+      "Types?"
+    ],
+    "basic_answers": [
+      "Non-tabular databases for big/unstructured data.",
+      "Document (MongoDB), Key-Value (Redis), Graph (Neo4j)."
+    ]
+  },
+  {
+    "term": "primary key",
+    "definition": "A unique identifier for each record in a table.",
+    "basic_questions": [
+      "What is primary key?"
+    ],
+    "basic_answers": [
+      "Unique ID for each row (e.g., roll_no)."
+    ]
+  },
+  {
+    "term": "foreign key",
+    "definition": "A field that refers to the primary key in another table.",
+    "basic_questions": [
+      "What is foreign key?"
+    ],
+    "basic_answers": [
+      "Links two tables (e.g., student.dept_id → department.id)."
+    ]
+  },
+  {
+    "term": "composite key",
+    "definition": "A primary key made of two or more columns.",
+    "basic_questions": [
+      "What is composite key?"
+    ],
+    "basic_answers": [
+      "Primary key from multiple columns (e.g., order_id + product_id)."
+    ]
+  },
+  {
+    "term": "candidate key",
+    "definition": "A minimal set of attributes that can uniquely identify a record.",
+    "basic_questions": [
+      "What is candidate key?"
+    ],
+    "basic_answers": [
+      "Any column(s) that can be primary key."
+    ]
+  },
+  {
+    "term": "normalization",
+    "definition": "Process of organizing data to reduce redundancy and improve integrity.",
+    "basic_questions": [
+      "What is normalization?"
+    ],
+    "basic_answers": [
+      "Remove duplicates, split tables for clean data."
+    ]
+  },
+  {
+    "term": "1nf",
+    "definition": "First Normal Form: eliminates repeating groups, ensures atomic values.",
+    "basic_questions": [
+      "What is 1NF?"
+    ],
+    "basic_answers": [
+      "No repeating groups, each cell one value."
+    ]
+  },
+  {
+    "term": "2nf",
+    "definition": "Second Normal Form: 1NF + no partial dependency on composite key.",
+    "basic_questions": [
+      "What is 2NF?"
+    ],
+    "basic_answers": [
+      "1NF + non-key depends on whole composite key."
+    ]
+  },
+  {
+    "term": "3nf",
+    "definition": "Third Normal Form: 2NF + no transitive dependency.",
+    "basic_questions": [
+      "What is 3NF?"
+    ],
+    "basic_answers": [
+      "No column depends on another non-key column."
+    ]
+  },
+  {
+    "term": "bcnf",
+    "definition": "Boyce-Codd Normal Form: stricter version of 3NF.",
+    "basic_questions": [
+      "What is BCNF?"
+    ],
+    "basic_answers": [
+      "Stricter 3NF — every determinant is a candidate key."
+    ]
+  },
+  {
+    "term": "join",
+    "definition": "Combines rows from two or more tables based on related columns.",
+    "basic_questions": [
+      "What is JOIN in SQL?"
+    ],
+    "basic_answers": [
+      "Combine data from multiple tables."
+    ]
+  },
+  {
+    "term": "inner join",
+    "definition": "Returns rows with matching values in both tables.",
+    "basic_questions": [
+      "What is INNER JOIN?"
+    ],
+    "basic_answers": [
+      "Only matching rows from both tables."
+    ]
+  },
+  {
+    "term": "left join",
+    "definition": "Returns all rows from left table, matched rows from right.",
+    "basic_questions": [
+      "What is LEFT JOIN?"
+    ],
+    "basic_answers": [
+      "All from left, matching from right (NULL if no match)."
+    ]
+  },
+  {
+    "term": "right join",
+    "definition": "Returns all rows from right table, matched from left.",
+    "basic_questions": [
+      "What is RIGHT JOIN?"
+    ],
+    "basic_answers": [
+      "All from right, matching from left."
+    ]
+  },
+  {
+    "term": "full outer join",
+    "definition": "Returns all rows when there is a match in either table.",
+    "basic_questions": [
+      "What is FULL OUTER JOIN?"
+    ],
+    "basic_answers": [
+      "All rows from both tables, NULL where no match."
+    ]
+  },
+  {
+    "term": "index",
+    "definition": "A database structure that improves query performance on specific columns.",
+    "basic_questions": [
+      "What is index in DB?"
+    ],
+    "basic_answers": [
+      "Speeds up SELECT on a column (like book index)."
+    ]
+  },
+  {
+    "term": "clustered index",
+    "definition": "Determines the physical order of data in a table.",
+    "basic_questions": [
+      "What is clustered index?"
+    ],
+    "basic_answers": [
+      "Data physically sorted by index (one per table)."
+    ]
+  },
+  {
+    "term": "non clustered index",
+    "definition": "A separate structure with pointers to data rows.",
+    "basic_questions": [
+      "What is non-clustered index?"
+    ],
+    "basic_answers": [
+      "Separate index with pointers to actual data."
+    ]
+  },
+  {
+    "term": "transaction",
+    "definition": "A unit of work performed against a database as a single logical operation.",
+    "basic_questions": [
+      "What is a transaction?"
+    ],
+    "basic_answers": [
+      "Group of SQL commands that succeed or fail together."
+    ]
+  },
+  {
+    "term": "acid",
+    "definition": "Atomicity, Consistency, Isolation, Durability – properties of reliable transactions.",
+    "basic_questions": [
+      "What is ACID?"
+    ],
+    "basic_answers": [
+      "A: All or nothing, C: Valid state, I: No interference, D: Permanent."
+    ]
+  },
+  {
+    "term": "rollback",
+    "definition": "Undo changes made during a transaction if it fails.",
+    "basic_questions": [
+      "What is ROLLBACK?"
+    ],
+    "basic_answers": [
+      "Undo all changes in a transaction."
+    ]
+  },
+  {
+    "term": "commit",
+    "definition": "Save all changes made during a transaction permanently.",
+    "basic_questions": [
+      "What is COMMIT?"
+    ],
+    "basic_answers": [
+      "Save transaction changes permanently."
+    ]
+  },
+  {
+    "term": "deadlock",
+    "definition": "Two or more transactions permanently blocked waiting for each other.",
+    "basic_questions": [
+      "What is deadlock?"
+    ],
+    "basic_answers": [
+      "T1 waits for T2, T2 waits for T1 → stuck forever."
+    ]
+  },
+  {
+    "term": "concurrency control",
+    "definition": "Mechanisms to ensure correct results for concurrent operations.",
+    "basic_questions": [
+      "What is concurrency control?"
+    ],
+    "basic_answers": [
+      "Manage multiple transactions without conflict."
+    ]
+  },
+  {
+    "term": "operating system",
+    "definition": "Software that manages hardware, software resources, and provides services for programs.",
+    "basic_questions": [
+      "What is OS?",
+      "Examples?"
+    ],
+    "basic_answers": [
+      "Middleman between user and hardware.",
+      "Windows, Linux, macOS, Android."
+    ]
+  },
+  {
+    "term": "kernel",
+    "definition": "Core component of OS that controls hardware and system operations.",
+    "basic_questions": [
+      "What is kernel?"
+    ],
+    "basic_answers": [
+      "Heart of OS — talks to CPU, memory, devices."
+    ]
+  },
+  {
+    "term": "process",
+    "definition": "An executing program with its own memory space and system resources.",
+    "basic_questions": [
+      "What is a process?"
+    ],
+    "basic_answers": [
+      "Running program with its own memory."
+    ]
+  },
+  {
+    "term": "thread",
+    "definition": "Lightweight process sharing memory with other threads in the same process.",
+    "basic_questions": [
+      "Difference between process and thread?"
+    ],
+    "basic_answers": [
+      "Process: own memory. Thread: shares memory with others."
+    ]
+  },
+  {
+    "term": "multithreading",
+    "definition": "Executing multiple threads concurrently within a single process.",
+    "basic_questions": [
+      "What is multithreading?"
+    ],
+    "basic_answers": [
+      "Run multiple threads in one process (faster context switch)."
+    ]
+  },
+  {
+    "term": "cpu scheduling",
+    "definition": "Determining which process gets the CPU when multiple are ready.",
+    "basic_questions": [
+      "What is CPU scheduling?"
+    ],
+    "basic_answers": [
+      "Decide which process runs next on CPU."
+    ]
+  },
+  {
+    "term": "fcfs",
+    "definition": "First Come First Served scheduling: non-preemptive, simple but long waiting time.",
+    "basic_questions": [
+      "What is FCFS?"
+    ],
+    "basic_answers": [
+      "First arrived, first served — like a queue."
+    ]
+  },
+  {
+    "term": "sjf",
+    "definition": "Shortest Job First: selects process with smallest execution time.",
+    "basic_questions": [
+      "What is SJF?"
+    ],
+    "basic_answers": [
+      "Run shortest job first — minimizes wait time."
+    ]
+  },
+  {
+    "term": "round robin",
+    "definition": "Preemptive scheduling with fixed time quantum for fairness.",
+    "basic_questions": [
+      "What is Round Robin?"
+    ],
+    "basic_answers": [
+      "Each process gets fixed time slice (quantum) in cycle."
+    ]
+  },
+  {
+    "term": "memory management",
+    "definition": "OS component that controls and coordinates main memory.",
+    "basic_questions": [
+      "What is memory management?"
+    ],
+    "basic_answers": [
+      "Allocate/deallocate memory to processes."
+    ]
+  },
+  {
+    "term": "virtual memory",
+    "definition": "Technique allowing execution of processes not completely in memory using disk.",
+    "basic_questions": [
+      "What is virtual memory?"
+    ],
+    "basic_answers": [
+      "Use disk as extra RAM — run big programs."
+    ]
+  },
+  {
+    "term": "paging",
+    "definition": "Divides memory into fixed-size pages and frames.",
+    "basic_questions": [
+      "What is paging?"
+    ],
+    "basic_answers": [
+      "Split memory into fixed pages (4KB) and frames."
+    ]
+  },
+  {
+    "term": "page fault",
+    "definition": "Occurs when a requested page is not in memory and must be loaded from disk.",
+    "basic_questions": [
+      "What is page fault?"
+    ],
+    "basic_answers": [
+      "Page not in RAM → load from disk (slow)."
+    ]
+  },
+  {
+    "term": "thrashing",
+    "definition": "Excessive paging that degrades system performance.",
+    "basic_questions": [
+      "What is thrashing?"
+    ],
+    "basic_answers": [
+      "Too much paging → CPU busy swapping, no work done."
+    ]
+  },
+  {
+    "term": "file system",
+    "definition": "Method and data structure OS uses to control file storage and retrieval.",
+    "basic_questions": [
+      "What is file system?"
+    ],
+    "basic_answers": [
+      "How OS stores and organizes files on disk."
+    ]
+  },
+  {
+    "term": "fat32",
+    "definition": "File Allocation Table 32-bit file system, widely compatible.",
+    "basic_questions": [
+      "What is FAT32?"
+    ],
+    "basic_answers": [
+      "Old, compatible file system (USB drives)."
+    ]
+  },
+  {
+    "term": "ntfs",
+    "definition": "New Technology File System with security, journaling, and large volume support.",
+    "basic_questions": [
+      "What is NTFS?"
+    ],
+    "basic_answers": [
+      "Windows file system — secure, supports big files."
+    ]
+  },
+  {
+    "term": "ext4",
+    "definition": "Fourth Extended File System, default for many Linux distributions.",
+    "basic_questions": [
+      "What is ext4?"
+    ],
+    "basic_answers": [
+      "Linux file system — fast, reliable."
+    ]
+  },
+  {
+    "term": "computer network",
+    "definition": "A group of interconnected computers that can exchange data and share resources.",
+    "basic_questions": [
+      "What is a computer network?"
+    ],
+    "basic_answers": [
+      "Connected computers sharing data/resources."
+    ]
+  },
+  {
+    "term": "lan",
+    "definition": "Local Area Network: covers small geographic area like office or home.",
+    "basic_questions": [
+      "What is LAN?"
+    ],
+    "basic_answers": [
+      "Network in one building (e.g., office Wi-Fi)."
+    ]
+  },
+  {
+    "term": "wan",
+    "definition": "Wide Area Network: spans large geographic areas, often using public networks.",
+    "basic_questions": [
+      "What is WAN?"
+    ],
+    "basic_answers": [
+      "Network across cities/countries (e.g., Internet)."
+    ]
+  },
+  {
+    "term": "man",
+    "definition": "Metropolitan Area Network: covers a city or campus.",
+    "basic_questions": [
+      "What is MAN?"
+    ],
+    "basic_answers": [
+      "Network for a city (e.g., university campus)."
+    ]
+  },
+  {
+    "term": "pan",
+    "definition": "Personal Area Network: connects devices within an individual's workspace.",
+    "basic_questions": [
+      "What is PAN?"
+    ],
+    "basic_answers": [
+      "Your phone, laptop, smartwatch connected."
+    ]
+  },
+  {
+    "term": "osi model",
+    "definition": "7-layer framework for understanding network communication.",
+    "basic_questions": [
+      "What are the 7 layers of OSI?"
+    ],
+    "basic_answers": [
+      "1. Physical, 2. Data Link, 3. Network, 4. Transport, 5. Session, 6. Presentation, 7. Application."
+    ]
+  },
+  {
+    "term": "tcp/ip model",
+    "definition": "4-layer model used by the Internet: Application, Transport, Internet, Link.",
+    "basic_questions": [
+      "What is TCP/IP model?"
+    ],
+    "basic_answers": [
+      "4 layers: Application, Transport, Internet, Link."
+    ]
+  },
+  {
+    "term": "ip address",
+    "definition": "Unique numerical label assigned to each device on a network.",
+    "basic_questions": [
+      "What is IP address?"
+    ],
+    "basic_answers": [
+      "Unique address for device on network (e.g., 192.168.1.1)."
+    ]
+  },
+  {
+    "term": "ipv4",
+    "definition": "32-bit address format, e.g., 192.168.1.1, supports ~4.3 billion addresses.",
+    "basic_questions": [
+      "What is IPv4?"
+    ],
+    "basic_answers": [
+      "32-bit: 192.168.1.1 — ~4.3 billion addresses."
+    ]
+  },
+  {
+    "term": "ipv6",
+    "definition": "128-bit address format, e.g., 2001:0db8::1, supports vast address space.",
+    "basic_questions": [
+      "What is IPv6?"
+    ],
+    "basic_answers": [
+      "128-bit: 2001:db8::1 — huge address space."
+    ]
+  },
+  {
+    "term": "mac address",
+    "definition": "Hardware address burned into network interface card, unique globally.",
+    "basic_questions": [
+      "What is MAC address?"
+    ],
+    "basic_answers": [
+      "Unique hardware ID: AA:BB:CC:11:22:33."
+    ]
+  },
+  {
+    "term": "dns",
+    "definition": "Domain Name System: translates domain names to IP addresses.",
+    "basic_questions": [
+      "What is DNS?"
+    ],
+    "basic_answers": [
+      "Translates google.com → 142.250.190.14."
+    ]
+  },
+  {
+    "term": "http",
+    "definition": "HyperText Transfer Protocol: application protocol for web communication.",
+    "basic_questions": [
+      "What is HTTP?"
+    ],
+    "basic_answers": [
+      "Protocol for web: browser ↔ server."
+    ]
+  },
+  {
+    "term": "https",
+    "definition": "HTTP Secure: encrypted version of HTTP using SSL/TLS.",
+    "basic_questions": [
+      "What is HTTPS?"
+    ],
+    "basic_answers": [
+      "Secure HTTP with encryption (SSL/TLS)."
+    ]
+  },
+  {
+    "term": "ftp",
+    "definition": "File Transfer Protocol: standard for transferring files over networks.",
+    "basic_questions": [
+      "What is FTP?"
+    ],
+    "basic_answers": [
+      "Transfer files between computers."
+    ]
+  },
+  {
+    "term": "smtp",
+    "definition": "Simple Mail Transfer Protocol: for sending emails.",
+    "basic_questions": [
+      "What is SMTP?"
+    ],
+    "basic_answers": [
+      "Sends emails (from your app to server)."
+    ]
+  },
+  {
+    "term": "tcp",
+    "definition": "Transmission Control Protocol: reliable, connection-oriented, ensures delivery.",
+    "basic_questions": [
+      "What is TCP?"
+    ],
+    "basic_answers": [
+      "Reliable, ordered, connection-based (web, email)."
+    ]
+  },
+  {
+    "term": "udp",
+    "definition": "User Datagram Protocol: connectionless, fast, no guaranteed delivery.",
+    "basic_questions": [
+      "What is UDP?"
+    ],
+    "basic_answers": [
+      "Fast, no guarantee (video streaming, games)."
+    ]
+  },
+  {
+    "term": "port",
+    "definition": "Logical endpoint for communication, identified by number (0–65535).",
+    "basic_questions": [
+      "What is a port?"
+    ],
+    "basic_answers": [
+      "Number to identify service: 80 (HTTP), 443 (HTTPS)."
+    ]
+  },
+  {
+    "term": "firewall",
+    "definition": "Security system that monitors and controls incoming/outgoing network traffic.",
+    "basic_questions": [
+      "What is firewall?"
+    ],
+    "basic_answers": [
+      "Blocks unauthorized traffic (security guard)."
+    ]
+  },
+  {
+    "term": "router",
+    "definition": "Device that forwards data packets between computer networks.",
+    "basic_questions": [
+      "What is a router?"
+    ],
+    "basic_answers": [
+      "Forwards packets between networks (e.g., home to ISP)."
+    ]
+  },
+  {
+    "term": "switch",
+    "definition": "Device that connects devices in a network by using MAC addresses.",
+    "basic_questions": [
+      "Difference between switch and router?"
+    ],
+    "basic_answers": [
+      "Switch: same network (MAC). Router: different networks (IP)."
+    ]
+  },
+  {
+    "term": "hub",
+    "definition": "Basic networking device that broadcasts data to all connected devices.",
+    "basic_questions": [
+      "What is hub?"
+    ],
+    "basic_answers": [
+      "Sends data to all devices (dumb, outdated)."
+    ]
+  },
+  {
+    "term": "subnet mask",
+    "definition": "Used to divide IP address into network and host portions.",
+    "basic_questions": [
+      "What is subnet mask?"
+    ],
+    "basic_answers": [
+      "Separates network and host part: 255.255.255.0."
+    ]
+  },
+  {
+    "term": "nat",
+    "definition": "Network Address Translation: maps private IPs to public IP for internet access.",
+    "basic_questions": [
+      "What is NAT?"
+    ],
+    "basic_answers": [
+      "Share one public IP with many private devices."
+    ]
+  },
+  {
+    "term": "vpn",
+    "definition": "Virtual Private Network: secure tunnel over public network.",
+    "basic_questions": [
+      "What is VPN?"
+    ],
+    "basic_answers": [
+      "Secure, private tunnel over internet."
+    ]
+  },
+  {
+    "term": "html",
+    "definition": "HyperText Markup Language: standard language for creating web pages.",
+    "basic_questions": [
+      "What is HTML?"
+    ],
+    "basic_answers": [
+      "Structure of web pages: <h1>, <p>, <div>."
+    ]
+  },
+  {
+    "term": "css",
+    "definition": "Cascading Style Sheets: language for styling HTML documents.",
+    "basic_questions": [
+      "What is CSS?"
+    ],
+    "basic_answers": [
+      "Styles HTML: color, font, layout."
+    ]
+  },
+  {
+    "term": "javascript",
+    "definition": "High-level programming language for adding interactivity to web pages.",
+    "basic_questions": [
+      "What is JavaScript?"
+    ],
+    "basic_answers": [
+      "Adds interactivity: click, animation, fetch data."
+    ]
+  },
+  {
+    "term": "dom",
+    "definition": "Document Object Model: programming interface for HTML and XML documents.",
+    "basic_questions": [
+      "What is DOM?"
+    ],
+    "basic_answers": [
+      "Tree of HTML elements JS can manipulate."
+    ]
+  },
+  {
+    "term": "responsive design",
+    "definition": "Web design approach that makes pages render well on all devices.",
+    "basic_questions": [
+      "What is responsive design?"
+    ],
+    "basic_answers": [
+      "Website works on mobile, tablet, desktop."
+    ]
+  },
+  {
+    "term": "flexbox",
+    "definition": "CSS layout model for one-dimensional layouts.",
+    "basic_questions": [
+      "What is Flexbox?"
+    ],
+    "basic_answers": [
+      "1D layout: align items in row/column easily."
+    ]
+  },
+  {
+    "term": "grid",
+    "definition": "CSS Grid Layout: two-dimensional layout system.",
+    "basic_questions": [
+      "What is CSS Grid?"
+    ],
+    "basic_answers": [
+      "2D layout: rows and columns."
+    ]
+  },
+  {
+    "term": "bootstrap",
+    "definition": "Popular CSS framework for responsive, mobile-first front-end development.",
+    "basic_questions": [
+      "What is Bootstrap?"
+    ],
+    "basic_answers": [
+      "CSS framework with ready components (buttons, navbar)."
+    ]
+  },
+  {
+    "term": "react",
+    "definition": "JavaScript library for building user interfaces with components.",
+    "basic_questions": [
+      "What is React?"
+    ],
+    "basic_answers": [
+      "Library for UI with reusable components."
+    ]
+  },
+  {
+    "term": "vue",
+    "definition": "Progressive JavaScript framework for building UIs.",
+    "basic_questions": [
+      "What is Vue.js?"
+    ],
+    "basic_answers": [
+      "Lightweight framework for reactive UIs."
+    ]
+  },
+  {
+    "term": "angular",
+    "definition": "Platform for building mobile and desktop web applications.",
+    "basic_questions": [
+      "What is Angular?"
+    ],
+    "basic_answers": [
+      "Full framework with two-way binding, TypeScript."
+    ]
+  },
+  {
+    "term": "node.js",
+    "definition": "JavaScript runtime for executing code outside the browser.",
+    "basic_questions": [
+      "What is Node.js?"
+    ],
+    "basic_answers": [
+      "Run JavaScript on server (backend)."
+    ]
+  },
+  {
+    "term": "express",
+    "definition": "Minimal web framework for Node.js.",
+    "basic_questions": [
+      "What is Express?"
+    ],
+    "basic_answers": [
+      "Lightweight web server for Node.js."
+    ]
+  },
+  {
+    "term": "rest api",
+    "definition": "Architectural style for designing networked applications using HTTP methods.",
+    "basic_questions": [
+      "What is REST API?"
+    ],
+    "basic_answers": [
+      "API using HTTP: GET, POST, PUT, DELETE."
+    ]
+  },
+  {
+    "term": "graphql",
+    "definition": "Query language for APIs that enables clients to request specific data.",
+    "basic_questions": [
+      "What is GraphQL?"
+    ],
+    "basic_answers": [
+      "Query language: ask exactly what you need."
+    ]
+  },
+  {
+    "term": "json",
+    "definition": "JavaScript Object Notation: lightweight data interchange format.",
+    "basic_questions": [
+      "What is JSON?"
+    ],
+    "basic_answers": [
+      "Lightweight data format: { \"name\": \"Ali\" }"
+    ]
+  },
+  {
+    "term": "xml",
+    "definition": "Extensible Markup Language: markup language for encoding documents.",
+    "basic_questions": [
+      "What is XML?"
+    ],
+    "basic_answers": [
+      "<person><name>Ali</name></person> — structured data."
+    ]
+  },
+  {
+    "term": "jwt",
+    "definition": "JSON Web Token: compact, URL-safe means of representing claims between parties.",
+    "basic_questions": [
+      "What is JWT?"
+    ],
+    "basic_answers": [
+      "Token for authentication: header.payload.signature"
+    ]
+  },
+  {
+    "term": "oauth",
+    "definition": "Open standard for token-based authentication and authorization.",
+    "basic_questions": [
+      "What is OAuth?"
+    ],
+    "basic_answers": [
+      "Login with Google/Facebook without password."
+    ]
+  },
+  {
+    "term": "cors",
+    "definition": "Cross-Origin Resource Sharing: mechanism allowing restricted resources on a web page to be requested from another domain.",
+    "basic_questions": [
+      "What is CORS?"
+    ],
+    "basic_answers": [
+      "Allow frontend (localhost) to call API (server)."
+    ]
+  },
+  {
+    "term": "web socket",
+    "definition": "Protocol providing full-duplex communication channels over a single TCP connection.",
+    "basic_questions": [
+      "What is WebSocket?"
+    ],
+    "basic_answers": [
+      "Real-time, two-way: chat, live updates."
+    ]
+  },
+  {
+    "term": "machine learning",
+    "definition": "Field of AI where systems learn from data to make predictions or decisions.",
+    "basic_questions": [
+      "What is Machine Learning?"
+    ],
+    "basic_answers": [
+      "Teach computers to learn from data, not rules."
+    ]
+  },
+  {
+    "term": "supervised learning",
+    "definition": "ML with labeled data: input → output mapping.",
+    "basic_questions": [
+      "What is supervised learning?"
+    ],
+    "basic_answers": [
+      "Learn from labeled data (input + correct output)."
+    ]
+  },
+  {
+    "term": "unsupervised learning",
+    "definition": "ML with unlabeled data: finds patterns or clusters.",
+    "basic_questions": [
+      "What is unsupervised learning?"
+    ],
+    "basic_answers": [
+      "Find patterns in unlabeled data (e.g., clustering)."
+    ]
+  },
+  {
+    "term": "reinforcement learning",
+    "definition": "Agent learns by trial and error, receiving rewards or penalties.",
+    "basic_questions": [
+      "What is reinforcement learning?"
+    ],
+    "basic_answers": [
+      "Learn by rewards/punishments (e.g., game AI)."
+    ]
+  },
+  {
+    "term": "regression",
+    "definition": "Predicts continuous values (e.g., house price).",
+    "basic_questions": [
+      "What is regression?"
+    ],
+    "basic_answers": [
+      "Predict numbers (e.g., price, temperature)."
+    ]
+  },
+  {
+    "term": "classification",
+    "definition": "Predicts categorical labels (e.g., spam/not spam).",
+    "basic_questions": [
+      "What is classification?"
+    ],
+    "basic_answers": [
+      "Predict categories (spam, cat/dog)."
+    ]
+  },
+  {
+    "term": "clustering",
+    "definition": "Groups similar data points without labels (e.g., customer segmentation).",
+    "basic_questions": [
+      "What is clustering?"
+    ],
+    "basic_answers": [
+      "Group similar items (e.g., customer types)."
+    ]
+  },
+  {
+    "term": "k means",
+    "definition": "Unsupervised algorithm partitioning data into K clusters.",
+    "basic_questions": [
+      "What is K-Means?"
+    ],
+    "basic_answers": [
+      "Divide data into K groups by nearest center."
+    ]
+  },
+  {
+    "term": "decision tree",
+    "definition": "Tree-like model of decisions based on feature conditions.",
+    "basic_questions": [
+      "What is decision tree?"
+    ],
+    "basic_answers": [
+      "If-else tree for classification/regression."
+    ]
+  },
+  {
+    "term": "random forest",
+    "definition": "Ensemble of decision trees using bagging.",
+    "basic_questions": [
+      "What is Random Forest?"
+    ],
+    "basic_answers": [
+      "Many decision trees vote together."
+    ]
+  },
+  {
+    "term": "svm",
+    "definition": "Support Vector Machine: finds hyperplane maximizing margin between classes.",
+    "basic_questions": [
+      "What is SVM?"
+    ],
+    "basic_answers": [
+      "Draw line/plane to separate classes with max margin."
+    ]
+  },
+  {
+    "term": "knn",
+    "definition": "K-Nearest Neighbors: classifies based on majority vote of nearest points.",
+    "basic_questions": [
+      "What is KNN?"
+    ],
+    "basic_answers": [
+      "Classify by majority of K nearest neighbors."
+    ]
+  },
+  {
+    "term": "naive bayes",
+    "definition": "Probabilistic classifier based on Bayes' theorem with independence assumption.",
+    "basic_questions": [
+      "What is Naive Bayes?"
+    ],
+    "basic_answers": [
+      "Spam filter using probability and independence."
+    ]
+  },
+  {
+    "term": "neural network",
+    "definition": "Computing system inspired by biological neural networks.",
+    "basic_questions": [
+      "What is neural network?"
+    ],
+    "basic_answers": [
+      "Layers of nodes (neurons) learning from data."
+    ]
+  },
+  {
+    "term": "deep learning",
+    "definition": "Neural networks with many layers (deep architectures).",
+    "basic_questions": [
+      "What is deep learning?"
+    ],
+    "basic_answers": [
+      "Neural nets with many hidden layers."
+    ]
+  },
+  {
+    "term": "cnn",
+    "definition": "Convolutional Neural Network: for image and video processing.",
+    "basic_questions": [
+      "What is CNN?"
+    ],
+    "basic_answers": [
+      "For images: detect edges, shapes, objects."
+    ]
+  },
+  {
+    "term": "rnn",
+    "definition": "Recurrent Neural Network: for sequential data like time series or text.",
+    "basic_questions": [
+      "What is RNN?"
+    ],
+    "basic_answers": [
+      "For sequences: text, speech, stock prices."
+    ]
+  },
+  {
+    "term": "lstm",
+    "definition": "Long Short-Term Memory: RNN variant that remembers long-term dependencies.",
+    "basic_questions": [
+      "What is LSTM?"
+    ],
+    "basic_answers": [
+      "RNN that remembers long sequences."
+    ]
+  },
+  {
+    "term": "transformer",
+    "definition": "Architecture using self-attention, basis for models like BERT and GPT.",
+    "basic_questions": [
+      "What is Transformer?"
+    ],
+    "basic_answers": [
+      "Attention-based model (BERT, GPT)."
+    ]
+  },
+  {
+    "term": "bert",
+    "definition": "Bidirectional Encoder Representations from Transformers: pre-trained language model.",
+    "basic_questions": [
+      "What is BERT?"
+    ],
+    "basic_answers": [
+      "Pre-trained model understanding context both ways."
+    ]
+  },
+  {
+    "term": "gpt",
+    "definition": "Generative Pre-trained Transformer: large language model for text generation.",
+    "basic_questions": [
+      "What is GPT?"
+    ],
+    "basic_answers": [
+      "Generates human-like text (ChatGPT, Grok)."
+    ]
+  },
+  {
+    "term": "overfitting",
+    "definition": "Model learns training data too well, including noise, performs poorly on new data.",
+    "basic_questions": [
+      "What is overfitting?"
+    ],
+    "basic_answers": [
+      "Model memorizes training data, fails on new data."
+    ]
+  },
+  {
+    "term": "underfitting",
+    "definition": "Model is too simple to capture underlying patterns in data.",
+    "basic_questions": [
+      "What is underfitting?"
+    ],
+    "basic_answers": [
+      "Model too simple, misses patterns."
+    ]
+  },
+  {
+    "term": "regularization",
+    "definition": "Techniques (L1, L2, dropout) to prevent overfitting.",
+    "basic_questions": [
+      "What is regularization?"
+    ],
+    "basic_answers": [
+      "Penalize complex models to avoid overfitting."
+    ]
+  },
+  {
+    "term": "cross validation",
+    "definition": "Splitting data into folds to evaluate model performance robustly.",
+    "basic_questions": [
+      "What is cross-validation?"
+    ],
+    "basic_answers": [
+      "Split data into folds, train/test multiple times."
+    ]
+  },
+  {
+    "term": "confusion matrix",
+    "definition": "Table showing True Positive, True Negative, False Positive, False Negative.",
+    "basic_questions": [
+      "What is confusion matrix?"
+    ],
+    "basic_answers": [
+      "TP, TN, FP, FN in a table."
+    ]
+  },
+  {
+    "term": "precision",
+    "definition": "TP / (TP + FP): accuracy of positive predictions.",
+    "basic_questions": [
+      "What is precision?"
+    ],
+    "basic_answers": [
+      "Of predicted positives, how many are actually positive?"
+    ]
+  },
+  {
+    "term": "recall",
+    "definition": "TP / (TP + FN): ability to find all positive instances.",
+    "basic_questions": [
+      "What is recall?"
+    ],
+    "basic_answers": [
+      "Of actual positives, how many did we catch?"
+    ]
+  },
+  {
+    "term": "f1 score",
+    "definition": "Harmonic mean of precision and recall.",
+    "basic_questions": [
+      "What is F1 score?"
+    ],
+    "basic_answers": [
+      "Balance between precision and recall."
+    ]
+  },
+  {
+    "term": "roc curve",
+    "definition": "Plot of True Positive Rate vs False Positive Rate at various thresholds.",
+    "basic_questions": [
+      "What is ROC curve?"
+    ],
+    "basic_answers": [
+      "Plot TPR vs FPR — higher curve = better model."
+    ]
+  },
+  {
+    "term": "auc",
+    "definition": "Area Under the ROC Curve: measures model discrimination.",
+    "basic_questions": [
+      "What is AUC?"
+    ],
+    "basic_answers": [
+      "Area under ROC: 1.0 = perfect, 0.5 = random."
+    ]
+  },
+  {
+    "term": "feature engineering",
+    "definition": "Creating new features or transforming existing ones to improve model performance.",
+    "basic_questions": [
+      "What is feature engineering?"
+    ],
+    "basic_answers": [
+      "Create better input features for ML."
+    ]
+  },
+  {
+    "term": "data preprocessing",
+    "definition": "Cleaning, normalizing, encoding, and scaling data before modeling.",
+    "basic_questions": [
+      "What is data preprocessing?"
+    ],
+    "basic_answers": [
+      "Clean, scale, encode data before training."
+    ]
+  },
+  {
+    "term": "imbalanced data",
+    "definition": "When classes are not represented equally in the dataset.",
+    "basic_questions": [
+      "What is imbalanced data?"
+    ],
+    "basic_answers": [
+      "99% negative, 1% positive → model ignores minority."
+    ]
+  },
+  {
+    "term": "smote",
+    "definition": "Synthetic Minority Over-sampling Technique: generates synthetic samples for minority class.",
+    "basic_questions": [
+      "What is SMOTE?"
+    ],
+    "basic_answers": [
+      "Create fake minority samples to balance data."
+    ]
+  },
+  {
+    "term": "tensorflow",
+    "definition": "Open-source ML framework by Google for building and deploying models.",
+    "basic_questions": [
+      "What is TensorFlow?"
+    ],
+    "basic_answers": [
+      "Google's ML framework (deep learning)."
+    ]
+  },
+  {
+    "term": "pytorch",
+    "definition": "Open-source ML library by Facebook with dynamic computation graphs.",
+    "basic_questions": [
+      "What is PyTorch?"
+    ],
+    "basic_answers": [
+      "Facebook's ML library — dynamic, researcher-friendly."
+    ]
+  },
+  {
+    "term": "scikit learn",
+    "definition": "Python library for classical ML algorithms and data preprocessing.",
+    "basic_questions": [
+      "What is scikit-learn?"
+    ],
+    "basic_answers": [
+      "Classical ML: KNN, SVM, Random Forest."
+    ]
+  },
+  {
+    "term": "pandas",
+    "definition": "Python library for data manipulation and analysis using DataFrames.",
+    "basic_questions": [
+      "What is pandas?"
+    ],
+    "basic_answers": [
+      "Data analysis: DataFrames, CSV, Excel."
+    ]
+  },
+  {
+    "term": "numpy",
+    "definition": "Fundamental package for scientific computing with Python using arrays.",
+    "basic_questions": [
+      "What is NumPy?"
+    ],
+    "basic_answers": [
+      "Fast arrays and math operations."
+    ]
+  },
+  {
+    "term": "matplotlib",
+    "definition": "Plotting library for creating static, animated, and interactive visualizations.",
+    "basic_questions": [
+      "What is Matplotlib?"
+    ],
+    "basic_answers": [
+      "Plot graphs: line, bar, scatter."
+    ]
+  }
+]
